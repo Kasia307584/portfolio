@@ -11,17 +11,51 @@ function App() {
 
   return (
     <>
-      <button type="button" onClick={() => changeLanguage("fr")}>
-        français
-      </button>
-      <button type="button" onClick={() => changeLanguage("en")}>
-        english
-      </button>
-      <Card
-        text={t("title")}
-        photo="/photo_katarzyna.jpg"
-        description={t("description")}
-      />
+      <div className="bg-dark bg-gradient">
+        <div
+          className="btn-group"
+          role="group"
+          aria-label="Language buttons"
+          style={{
+            padding: "20px",
+            position: "absolute",
+            right: "0px",
+            top: "0px",
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => changeLanguage("fr")}
+            className="btn btn-outline-warning"
+          >
+            français
+          </button>
+          <button
+            type="button"
+            onClick={() => changeLanguage("en")}
+            className="btn btn-outline-warning"
+          >
+            english
+          </button>
+        </div>
+        <div style={{ padding: "50px" }}>
+          <Card
+            title={t("title")}
+            photo="/photo_katarzyna.jpg"
+            description={t("description")}
+          />
+          <Card
+            title={t("title")}
+            photo="/photo_katarzyna.jpg"
+            description={t("description")}
+          />
+          <Card
+            title={t("title")}
+            photo="/photo_katarzyna.jpg"
+            description={t("description")}
+          />
+        </div>
+      </div>
     </>
   );
 }

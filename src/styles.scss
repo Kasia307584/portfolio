@@ -1,0 +1,12 @@
+@import "bootstrap/scss/bootstrap";
+
+.card {
+  transition: transform 400ms ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+    color: $warning;
+    .card-title {
+      color: $warning;
+    }
+  }
+}
