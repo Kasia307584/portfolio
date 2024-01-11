@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import i18n from "./lang/i18n";
+import Card from "./compenents/Card";
 
 function App() {
   const { t } = useTranslation();
@@ -16,7 +17,11 @@ function App() {
       <button type="button" onClick={() => changeLanguage("en")}>
         english
       </button>
-      <h2>{t("title")}</h2>
+      <Card
+        text={t("title")}
+        photo="/photo_katarzyna.jpg"
+        description={t("description")}
+      />
     </>
   );
 }
