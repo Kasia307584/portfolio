@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import i18n from "./lang/i18n";
-import Card from "./compenents/Card";
+import { Card, Card2, Card3 } from "./compenents/Card";
 
 function App() {
   const { t } = useTranslation();
@@ -40,20 +40,24 @@ function App() {
         </div>
         <div style={{ padding: "50px" }}>
           <Card
-            title={t("title")}
+            title={t("presentation.title")}
             photo="/photo_katarzyna.jpg"
-            description={t("description")}
+            description={t("presentation.description")}
           />
-          <Card
-            title={t("title")}
-            photo="/photo_katarzyna.jpg"
-            description={t("description")}
+          <Card2
+            title={t("technologies.title")}
+            description={t("technologies.description")}
           />
-          <Card
-            title={t("title")}
-            photo="/photo_katarzyna.jpg"
-            description={t("description")}
-          />
+          <Card3
+            title={t("projects.title")}
+            description={t("projects.description")}
+          >
+            <Card
+              title="Project 1"
+              photo="/photo_katarzyna.jpg"
+              description="This is my first project"
+            />
+          </Card3>
         </div>
       </div>
     </>
