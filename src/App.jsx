@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import i18n from "./lang/i18n";
-import { Card, Card2, Card3 } from "./compenents/Card";
+import { Card, Card2 } from "./compenents/Card";
+import ProjectCard from "./compenents/ProjectCard";
+import BuildingBlock from "./compenents/BuildingBlock";
 
 function App() {
   const { t } = useTranslation();
@@ -48,16 +50,14 @@ function App() {
             title={t("technologies.title")}
             description={t("technologies.description")}
           />
-          <Card3
+          <BuildingBlock
             title={t("projects.title")}
             description={t("projects.description")}
           >
-            <Card
-              title="Project 1"
-              photo="/photo_katarzyna.jpg"
-              description="This is my first project"
-            />
-          </Card3>
+            <ProjectCard title="Kasa" photo="/kasa.png" />
+            <ProjectCard title="Kasa" photo="/kasa.png" />
+            <ProjectCard title="Kasa" photo="/kasa.png" />
+          </BuildingBlock>
         </div>
       </div>
     </>
