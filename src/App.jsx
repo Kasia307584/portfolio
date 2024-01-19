@@ -54,9 +54,8 @@ function App() {
             title={t("projects.title")}
             description={t("projects.description")}
           >
-            <ProjectCard title="Kasa" photo="/kasa.png" />
-            <ProjectCard title="Kasa" photo="/kasa.png" />
-            <ProjectCard title="Kasa" photo="/kasa.png" />
+            <ProjectCard id="1" />
+            <ProjectCard id="2" />
           </BuildingBlock>
         </div>
       </div>

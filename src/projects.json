@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Kasa",
+    "cover": "/kasa.png",
+    "description": "This is the description of the Kasa project, only in English for a moment",
+    "tags": ["HTML", "CSS", "REACT"]
+  },
+  {
+    "id": "2",
+    "title": "SportSee",
+    "cover": "/sportsee.png",
+    "description": "This is the description of the SportSee project",
+    "tags": ["HTML", "CSS", "REACT", "RECHARTS"]
+  }
+]
