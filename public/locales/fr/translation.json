@@ -1,0 +1,14 @@
+{
+  "presentation": {
+    "title": "Développeuse React",
+    "description": "Bienvenue dans mon espace numérique ! Je suis Katarzyna, une développeuse React débutante avec un parcours atypique qui m'a conduit du monde du conseil à l'univers passionnant du développement web. J'adore me plonger dans la création d'expériences utilisateur fluides au sein de l'environnement React dynamique"
+  },
+  "technologies": {
+    "title": "Techno et outils",
+    "description": "Voici des outils et des technologies avec lesquels je travaille"
+  },
+  "projects": {
+    "title": "Mes projets",
+    "description": "Le meilleur de ce que j'ai pu construire"
+  }
+}

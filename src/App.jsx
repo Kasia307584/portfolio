@@ -1,18 +1,23 @@
 import { useTranslation } from "react-i18next";
-import i18n from "./lang/i18n";
+import "./i18n";
 import { Card, Card2 } from "./compenents/Card";
-import ProjectCard from "./compenents/ProjectCard";
 import ProjectGallery from "./compenents/ProjectGallery";
+import { Suspense } from "react";
+
+const lngs = {
+  en: "English",
+  fr: "Français",
+};
 
 function App() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
 
   return (
-    <>
+    <Suspense fallback="loading">
       <div className="bg-dark bg-gradient">
         <div
           className="btn-group"
@@ -25,22 +30,19 @@ function App() {
             top: "0px",
           }}
         >
-          <button
-            type="button"
-            onClick={() => changeLanguage("fr")}
-            className="btn btn-outline-warning"
-          >
-            français
-          </button>
-          <button
-            type="button"
-            onClick={() => changeLanguage("en")}
-            className="btn btn-outline-warning"
-          >
-            english
-          </button>
+          {Object.keys(lngs).map((lng) => (
+            <button
+              key={lng}
+              onClick={() => changeLanguage(lng)}
+              type="button"
+              className="btn btn-outline-warning"
+            >
+              {lngs[lng]}
+            </button>
+          ))}
         </div>
         <div style={{ padding: "50px" }}>
+          {t("presentation.title")}
           <Card
             title={t("presentation.title")}
             photo="/photo_katarzyna.jpg"
@@ -56,7 +58,7 @@ function App() {
           />
         </div>
       </div>
-    </>
+    </Suspense>
   );
 }
 
