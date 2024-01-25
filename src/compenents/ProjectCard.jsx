@@ -1,8 +1,11 @@
 import projects from "../projects.json";
+import { useTranslation } from "react-i18next";
 
 function ProjectCard(props) {
-  const { id } = props;
-  const project = projects.find((item) => item.id === id);
+  const { t } = useTranslation(["translation", "projects"]);
+
+  const { name } = props;
+  const project = projects.find((item) => item.title === name);
 
   return (
     <div
@@ -34,7 +37,9 @@ function ProjectCard(props) {
       </div>
       <div className="card__details card--hidden ">
         <h5 className="card-title">{project.title}</h5>
-        <p className="card-text">{project.description}</p>
+        <p className="card-text">
+          {t(`${name}.description`, { ns: "projects" })}
+        </p>
         <div className="tags">
           <ul>
             {project.tags.map((tag, index) => (
