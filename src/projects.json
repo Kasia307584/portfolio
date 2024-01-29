@@ -12,5 +12,40 @@
     "cover": "/sportsee.png",
     "description": "This is the description of the SportSee project",
     "tags": ["HTML", "CSS", "REACT", "RECHARTS"]
+  },
+  {
+    "id": "3",
+    "title": "ArgentBank",
+    "cover": "/argentbank.png",
+    "description": "This is the description of the ArgentBank project",
+    "tags": ["HTML", "CSS", "REACT", "API"]
+  },
+  {
+    "id": "4",
+    "title": "WealthHealth",
+    "cover": "/wealthhealth.png",
+    "description": "This is the description of the WealthHealth project",
+    "tags": ["HTML", "CSS", "REACT", "BOOTSTRAP"]
+  },
+  {
+    "id": "5",
+    "title": "LesPetitsPlats",
+    "cover": "/lespetitsplats.png",
+    "description": "This is the description of the LesPetitsPlats project",
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+  {
+    "id": "6",
+    "title": "FishEye",
+    "cover": "/fisheye.png",
+    "description": "This is the description of the FishEye project",
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+  },
+  {
+    "id": "7",
+    "title": "GameOn",
+    "cover": "/gameon.png",
+    "description": "This is the description of the GameOn project",
+    "tags": ["HTML", "CSS", "JAVASCRIPT"]
   }
 ]

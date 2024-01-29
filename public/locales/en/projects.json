@@ -4,5 +4,20 @@
   },
   "SportSee": {
     "description": "This is the description of the SportSee project"
+  },
+  "ArgentBank": {
+    "description": "This is the description of the ArgentBank project"
+  },
+  "WealthHealth": {
+    "description": "This is the description of the WealthHealth project"
+  },
+  "LesPetitsPlats": {
+    "description": "This is the description of the LesPetitsPlats project"
+  },
+  "FishEye": {
+    "description": "This is the description of the FishEye project"
+  },
+  "GameOn": {
+    "description": "This is the description of the GameOn project"
   }
 }
