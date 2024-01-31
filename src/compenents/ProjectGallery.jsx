@@ -7,9 +7,11 @@ function ProjectGallery(props) {
     <div className="text-light">
       <h1>{title}</h1>
       <h5>{description}</h5>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div className="d-flex justify-content-around flex-wrap">
         {projects.map((project) => (
-          <ProjectCard name={project.title} key={`project-${project.id}`} />
+          <div className="col-md-6" key={`project-${project.id}`}>
+            <ProjectCard name={project.title} />
+          </div>
         ))}
       </div>
     </div>
