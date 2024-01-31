@@ -1,0 +1,9 @@
+// this file is the entry point to all other scss files
+// CSS compilation is done only on this file@import "_variables.scss";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./_custom.scss";
+
+// the order of imports is important here
+// variables need to be overrode before Bootstrap variables import
+// style on specific Bootstrap CSS selectors needs to be applied after Bootstrap files
