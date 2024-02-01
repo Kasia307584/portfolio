@@ -1,26 +1,4 @@
-function Card(props) {
-  const { title, photo, description } = props;
-  return (
-    <section id="section-presentation" className="card  mb-3 text-bg-dark">
-      <div className="row g-0">
-        <div className="col-md-4">
-          <img
-            className="img-fluid rounded-start w-50"
-            src={photo}
-            alt="My photo"
-          />
-        </div>
-        <div className="col-md-8 text-end text-light">
-          <div className="card-body">
-            <h1 className="card-title">{title}</h1>
-            <p className="card-text">{description}</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-function Card2(props) {
+function SectionSkills(props) {
   const { title, description } = props;
   return (
     <section id="section-skills" className="card mb-3 text-bg-dark">
@@ -69,4 +47,4 @@ function Card2(props) {
   );
 }
 
-export { Card, Card2 };
+export default SectionSkills;

@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./i18n";
-import { Card, Card2 } from "./compenents/Card";
+import SectionPresentation from "./compenents/SectionPresentation";
+import SectionSkills from "./compenents/SectionSkills";
 import ProjectGallery from "./compenents/ProjectGallery";
 import { Suspense } from "react";
 import Menu from "./compenents/Menu";
@@ -13,12 +14,12 @@ function App() {
       <div className="bg-dark bg-gradient">
         <Menu />
         <div>
-          <Card
+          <SectionPresentation
             title={t("presentation.title")}
             photo="/photo_katarzyna.jpg"
             description={t("presentation.description")}
           />
-          <Card2
+          <SectionSkills
             title={t("technologies.title")}
             description={t("technologies.description")}
           />
