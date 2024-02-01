@@ -1,4 +1,8 @@
 {
+  "Home": "Home",
+  "Presentation": "Presentation",
+  "Tech & Tools": "Tech & Tools",
+  "Projects": "Projects",
   "presentation": {
     "title": "React developer",
     "description": "Welcome to my corner of the digital realm! I'm Katarzyna, a beginner React Developer with a unique journey that led me from the world of consulting to the exciting realm of web development. I love diving into crafting seamless user experiences within the dynamic React environment"
@@ -10,5 +14,6 @@
   "projects": {
     "title": "My projects",
     "description": "The best of what I could build"
-  }
+  },
+  "More information": "More information"
 }

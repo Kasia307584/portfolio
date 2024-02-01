@@ -29,7 +29,7 @@ function ProjectCard(props) {
             ))}
           </ul>
         </div>
-        <h6>More information</h6>
+        <h6>{t("More information")}</h6>
       </div>
     </div>
   );

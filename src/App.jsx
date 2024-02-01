@@ -3,34 +3,15 @@ import "./i18n";
 import { Card, Card2 } from "./compenents/Card";
 import ProjectGallery from "./compenents/ProjectGallery";
 import { Suspense } from "react";
-
-const lngs = {
-  en: "English",
-  fr: "Français",
-};
+import Menu from "./compenents/Menu";
 
 function App() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  const { t } = useTranslation();
 
   return (
     <Suspense fallback="loading">
       <div className="bg-dark bg-gradient">
-        <div className="btn-group" role="group" aria-label="Language buttons">
-          {Object.keys(lngs).map((lng) => (
-            <button
-              key={lng}
-              onClick={() => changeLanguage(lng)}
-              type="button"
-              className="btn btn-outline-warning"
-            >
-              {lngs[lng]}
-            </button>
-          ))}
-        </div>
+        <Menu />
         <div>
           <Card
             title={t("presentation.title")}
