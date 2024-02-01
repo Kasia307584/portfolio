@@ -3,6 +3,7 @@ import "./i18n";
 import SectionPresentation from "./compenents/SectionPresentation";
 import SectionSkills from "./compenents/SectionSkills";
 import ProjectGallery from "./compenents/ProjectGallery";
+import Header from "./compenents/Header";
 import { Suspense } from "react";
 import Menu from "./compenents/Menu";
 
@@ -13,6 +14,7 @@ function App() {
     <Suspense fallback="loading">
       <div className="bg-dark bg-gradient">
         <Menu />
+        <Header />
         <div>
           <SectionPresentation
             title={t("presentation.title")}
