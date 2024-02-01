@@ -8,21 +8,16 @@ function ProjectCard(props) {
   const project = projects.find((item) => item.title === name);
 
   return (
-    <div
-      className="card text-bg-warning text-light position-relative d-flex justify-content-center align-items-center w-75"
-      id="project-card"
-    >
-      <div className="card text-bg-dark text-light" id="project-card">
+    <div className="card text-bg-warning text-light w-75">
+      <div className="card-body text-bg-dark">
         <img
           src={project.cover}
           className="card-img-top"
           alt="Project screenshot"
         />
-        <div className="card-body">
-          <h5 className="card-title">{project.title}</h5>
-        </div>
+        <h5 className="card-title">{project.title}</h5>
       </div>
-      <div className="card__details card--hidden ">
+      <div className="card__details position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50">
         <h5 className="card-title">{project.title}</h5>
         <p className="card-text">
           {t(`${name}.description`, { ns: "projects" })}

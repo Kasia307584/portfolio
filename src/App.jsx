@@ -19,17 +19,7 @@ function App() {
   return (
     <Suspense fallback="loading">
       <div className="bg-dark bg-gradient">
-        <div
-          className="btn-group"
-          role="group"
-          aria-label="Language buttons"
-          style={{
-            padding: "20px",
-            position: "absolute",
-            right: "0px",
-            top: "0px",
-          }}
-        >
+        <div className="btn-group" role="group" aria-label="Language buttons">
           {Object.keys(lngs).map((lng) => (
             <button
               key={lng}
@@ -41,8 +31,7 @@ function App() {
             </button>
           ))}
         </div>
-        <div style={{ padding: "50px" }}>
-          {t("presentation.title")}
+        <div>
           <Card
             title={t("presentation.title")}
             photo="/photo_katarzyna.jpg"
