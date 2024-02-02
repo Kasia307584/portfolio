@@ -1,6 +1,12 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import projects from "../projects.json";
 
-function Modal() {
+function Modal({ name }) {
+  const { t } = useTranslation(["translation", "projects"]);
+
+  const project = projects.find((item) => item.title === name);
+
   const [isShown, setIsShown] = useState(false);
 
   function showModal() {
@@ -23,15 +29,18 @@ function Modal() {
       </button>
 
       <div
-        className="modal "
+        className="modal"
         tabIndex="-1"
         id="theModal"
-        style={{ display: isShown ? "block" : "none" }}
+        style={{
+          display: isShown ? "block" : "none",
+        }}
       >
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title">Modal title</h5>
+              {/* check in the bootstrap doc how to manage double h on the page while applying modal*/}
+              <h5 className="modal-title">{project.title}</h5>
               <button
                 onClick={hideModal}
                 type="button"
@@ -40,8 +49,13 @@ function Modal() {
                 aria-label="Close"
               ></button>
             </div>
-            <div className="modal-body">
-              <p>Modal body text goes here.</p>
+            <div className="modal-body" style={{ backgroundColor: "black" }}>
+              <h2>{t("context")}</h2>
+              {t(`${name}.context`, { ns: "projects" })}
+              <br />
+              <br />
+              <h2>{t("challenges")}</h2>
+              {t(`${name}.challenges`, { ns: "projects" })}
             </div>
             <div className="modal-footer">
               <button
@@ -49,10 +63,10 @@ function Modal() {
                 className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
-                Close
+                GitHub link
               </button>
-              <button type="button" className="btn btn-primary">
-                Save changes
+              <button type="button" className="btn btn-secondary">
+                Website link
               </button>
             </div>
           </div>
