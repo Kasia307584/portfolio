@@ -1,5 +1,6 @@
 import projects from "../projects.json";
 import { useTranslation } from "react-i18next";
+import Modal from "./Modal";
 
 function ProjectCard(props) {
   const { t } = useTranslation(["translation", "projects"]);
@@ -30,6 +31,7 @@ function ProjectCard(props) {
           </ul>
         </div>
         <h6>{t("More information")}</h6>
+        <Modal />
       </div>
     </div>
   );
