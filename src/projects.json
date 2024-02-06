@@ -4,48 +4,71 @@
     "title": "Kasa",
     "cover": "/kasa.png",
     "description": "This is the description of the Kasa project, only in English for a moment",
-    "tags": ["HTML", "CSS", "REACT"]
+    "tags": ["HTML", "CSS", "REACT"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_11_25042023",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "2",
     "title": "SportSee",
     "cover": "/sportsee.png",
     "description": "This is the description of the SportSee project",
-    "tags": ["HTML", "CSS", "REACT", "RECHARTS"]
+    "tags": ["HTML", "CSS", "REACT", "RECHARTS"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_12_22062023",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "3",
     "title": "ArgentBank",
     "cover": "/argentbank.png",
     "description": "This is the description of the ArgentBank project",
-    "tags": ["HTML", "CSS", "REACT", "API"]
+    "tags": ["HTML", "CSS", "REACT", "API"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_13_16082023",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "4",
     "title": "WealthHealth",
     "cover": "/wealthhealth.png",
     "description": "This is the description of the WealthHealth project",
-    "tags": ["HTML", "CSS", "REACT", "BOOTSTRAP"]
+    "tags": ["HTML", "CSS", "REACT", "BOOTSTRAP"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_14_26102023",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "5",
     "title": "LesPetitsPlats",
     "cover": "/lespetitsplats.png",
     "description": "This is the description of the LesPetitsPlats project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+    "tags": ["HTML", "CSS", "JAVASCRIPT"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_7_28112021",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "6",
     "title": "FishEye",
     "cover": "/fisheye.png",
     "description": "This is the description of the FishEye project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+    "tags": ["HTML", "CSS", "JAVASCRIPT"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_6_20092021",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   },
   {
     "id": "7",
     "title": "GameOn",
     "cover": "/gameon.png",
     "description": "This is the description of the GameOn project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"]
+    "tags": ["HTML", "CSS", "JAVASCRIPT"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_4_02092021",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+  },
+  {
+    "id": "8",
+    "title": "Portfolio",
+    "cover": "/portfolio.png",
+    "description": "This is the description of the Portfolio project",
+    "tags": ["HTML", "SASS", "BOOTSTRAP", "REACT"],
+    "github": "https://github.com/Kasia307584/Portfolio3",
+    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
   }
 ]
