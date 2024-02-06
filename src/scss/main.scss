@@ -1,6 +1,7 @@
 // this file is the entry point to all other scss files
-// CSS compilation is done only on this file@import "_variables.scss";
+// CSS compilation is done only on this file
 
+@import "_variables.scss";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "./_custom.scss";
 
