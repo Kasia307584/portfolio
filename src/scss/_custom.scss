@@ -5,6 +5,10 @@
   &:hover {
     .card__details {
       opacity: 1;
+      // width: calc(100% - 14px);
+      // height: calc(100% - 14px);
+      // margin-left: 7px;
+      // margin-top: 7px;
     }
     .card-title__main {
       opacity: 0;
@@ -17,19 +21,23 @@
   }
 
   &-img-top {
-    height: 500px;
+    height: 450px;
     object-fit: cover;
     object-position: left top;
   }
 
   &-title__main {
     position: absolute;
-    width: 100%;
+    width: calc(100% - 14px);
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
     transition: opacity 0.3s ease;
+  }
+
+  &-body__project {
+    padding: 7px;
   }
 }
 

@@ -11,7 +11,7 @@ function ProjectCard({ name }) {
 
   return (
     <div className="card text-bg-dark">
-      <div className="card-body">
+      <div className="card-body card-body__project text-bg-warning">
         <img
           src={project.cover}
           className="card-img-top"
@@ -21,10 +21,7 @@ function ProjectCard({ name }) {
           {project.title}
         </h1>
       </div>
-      <div
-        style={{ padding: "1rem", height: "100%" }}
-        className="card__details position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-50"
-      >
+      <div className="card__details position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-75">
         <h1 className="card-title">{project.title}</h1>
         <p className="card-text">
           {t(`${name}.description`, { ns: "projects" })}
