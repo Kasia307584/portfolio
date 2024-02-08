@@ -32,3 +32,10 @@
     transition: opacity 0.3s ease;
   }
 }
+
+.section,
+.navbar {
+  width: 90%;
+  max-width: 1250px;
+  margin: auto;
+}

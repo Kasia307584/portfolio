@@ -1,12 +1,15 @@
 import { useTranslation } from "react-i18next";
 
 function SectionPresentation(props) {
-  const { title, photo, description } = props;
+  const { photo, description } = props;
 
   const { t } = useTranslation();
 
   return (
-    <section id="section-presentation" className="card  mb-3 text-bg-dark">
+    <section
+      id="section-presentation"
+      className="section section-presentation mb-3 "
+    >
       <div className="row g-0">
         <div className="col-md-4">
           <img
@@ -17,7 +20,6 @@ function SectionPresentation(props) {
         </div>
         <div className="col-md-8 text-end text-light">
           <div className="card-body">
-            <h1 className="card-title">{title}</h1>
             <p className="card-text">{description}</p>
             <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
               {t("Download my CV")}
