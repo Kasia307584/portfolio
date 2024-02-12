@@ -42,8 +42,17 @@
 }
 
 .section,
-.navbar {
+.navbar > div {
   width: 90%;
   max-width: 1250px;
   margin: auto;
+}
+
+.scrolled {
+  box-shadow: 2px 2px 20px aqua;
+}
+
+.section,
+#section-projects {
+  padding-top: 100px;
 }

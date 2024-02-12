@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 // import "../i18n";
 import { HashLink } from "react-router-hash-link";
+import { useState, useEffect } from "react";
 
 const lngs = {
   en: "EN",
@@ -14,24 +15,47 @@ function Menu() {
     i18n.changeLanguage(lng);
   };
 
+  const [scrolled, setScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 30) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav id="navbar" className="navbar navbar-expand-lg">
+    <nav
+      id="navbar"
+      className={`navbar navbar-expand-lg sticky-top text-bg-light ${
+        scrolled ? "scrolled" : ""
+      }`}
+    >
       <div className="container-fluid">
-        <HashLink smooth to="#navbar" className="nav-link">
+        <HashLink to="#" className="nav-link">
           Brand icon
         </HashLink>
         <div id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <HashLink smooth to="#navbar" className="nav-link active">
+            <HashLink to="#" className="nav-link active">
               {t("Home")}
             </HashLink>
-            <HashLink smooth to="#section-presentation" className="nav-link ">
+            <HashLink to="#section-presentation" className="nav-link ">
               {t("Presentation")}
             </HashLink>
-            <HashLink smooth to="#section-skills" className="nav-link ">
+            <HashLink to="#section-skills" className="nav-link ">
               {t("Tech & Tools")}
             </HashLink>
-            <HashLink smooth to="#section-projects" className="nav-link ">
+            <HashLink to="#section-projects" className="nav-link ">
               {t("Projects")}
             </HashLink>
           </div>
