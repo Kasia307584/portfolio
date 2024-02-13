@@ -16,16 +16,38 @@ function Menu() {
   };
 
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 30) {
+    const sections = [
+      "menu",
+      "section-header",
+      "section-presentation",
+      "section-skills",
+      "section-projects",
+    ];
+    // Highlight active section in navbar
+    const currentSection = sections.find((section) => {
+      const element = document.getElementById(section);
+      if (element) {
+        const scrollPosition = window.scrollY + 20;
+        const top = element.offsetTop;
+        const bottom = top + element.clientHeight;
+        return scrollPosition >= top && scrollPosition <= bottom;
+      }
+      return false;
+    });
+    setActiveSection(currentSection || "");
+
+    // Change navbar color on scroll
+    if (window.scrollY > 30) {
       setScrolled(true);
     } else {
       setScrolled(false);
     }
   };
 
+  // Add event listener to handle scroll
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -41,21 +63,43 @@ function Menu() {
       }`}
     >
       <div className="container-fluid">
-        <HashLink to="#" className="nav-link">
+        <HashLink to="#" id="menu" className="nav-link">
           Brand icon
         </HashLink>
         <div id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <HashLink to="#" className="nav-link active">
+            <HashLink
+              to="#"
+              className={`nav-link ${
+                activeSection === "menu" || activeSection === "section-header"
+                  ? "active"
+                  : ""
+              }`}
+            >
               {t("Home")}
             </HashLink>
-            <HashLink to="#section-presentation" className="nav-link ">
+            <HashLink
+              to="#section-presentation"
+              className={`nav-link ${
+                activeSection === "section-presentation" ? "active" : ""
+              }`}
+            >
               {t("Presentation")}
             </HashLink>
-            <HashLink to="#section-skills" className="nav-link ">
+            <HashLink
+              to="#section-skills"
+              className={`nav-link ${
+                activeSection === "section-skills" ? "active" : ""
+              }`}
+            >
               {t("Tech & Tools")}
             </HashLink>
-            <HashLink to="#section-projects" className="nav-link ">
+            <HashLink
+              to="#section-projects"
+              className={`nav-link ${
+                activeSection === "section-projects" ? "active" : ""
+              }`}
+            >
               {t("Projects")}
             </HashLink>
           </div>

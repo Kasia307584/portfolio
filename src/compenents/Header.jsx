@@ -5,7 +5,7 @@ function Header() {
   const { t } = useTranslation();
 
   return (
-    <section className="section section-header">
+    <section id="section-header" className="section section-header">
       <div className=" mb-3">
         <div className="row g-0">
           <div className="col-md-8">

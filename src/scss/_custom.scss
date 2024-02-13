@@ -56,3 +56,8 @@
 #section-projects {
   padding-top: 100px;
 }
+
+.active {
+  border-bottom: 1px solid aqua;
+  transition: opacity 0.3s ease;
+}
