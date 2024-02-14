@@ -2,7 +2,7 @@
   "Home": "Home",
   "Presentation": "Presentation",
   "Tech & Tools": "Tech & Tools",
-  "Projects": "Projects",
+  "My projects": "My projects",
   "presentation": {
     "title": "React developer",
     "description": "Welcome to my corner of the digital realm! I'm Katarzyna, a beginner React Developer with a unique journey that led me from the world of consulting to the exciting realm of web development. I love diving into crafting seamless user experiences within the dynamic React environment"
@@ -17,7 +17,7 @@
   },
   "More information": "More information",
   "Download my CV": "Download my CV",
-  "Hello I'm Katarzyna": "Hello I'm Katarzyna",
+  "Welcome, I'm Katarzyna": "Welcome, I'm Katarzyna",
   "context": "context",
   "challenges": "challenges",
   "Katarzyna Zurek. All rights reserved.": "Katarzyna Zurek. All rights reserved."

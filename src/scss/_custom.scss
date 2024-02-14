@@ -52,9 +52,14 @@
   box-shadow: 2px 2px 20px aqua;
 }
 
-.section,
-#section-projects {
+.section-skills,
+.section-presentation,
+.section-projects {
   padding-top: 100px;
+}
+
+.section-header {
+  padding-top: 120px;
 }
 
 .active {

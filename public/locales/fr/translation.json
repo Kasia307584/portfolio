@@ -2,7 +2,7 @@
   "Home": "Acceuil",
   "Presentation": "Présentation",
   "Tech & Tools": "Technos et outils",
-  "Projects": "Projets",
+  "My projects": "Mes projets",
   "presentation": {
     "title": "Développeuse React",
     "description": "Bienvenue dans mon espace numérique ! Je suis Katarzyna, une développeuse React débutante avec un parcours atypique qui m'a conduit du monde du conseil à l'univers passionnant du développement web. J'adore me plonger dans la création d'expériences utilisateur fluides au sein de l'environnement React dynamique"
@@ -17,7 +17,7 @@
   },
   "More information": "Plus d'information",
   "Download my CV": "Télécharger mon CV",
-  "Hello, I'm Katarzyna": "Bienvenue, je suis Katarzyna",
+  "Welcome, I'm Katarzyna": "Bienvenue, je suis Katarzyna",
   "context": "contexte",
   "challenges": "enjeux",
   "Katarzyna Zurek. All rights reserved.": "Katarzyna Zurek. Tous droits réservés."
