@@ -10,24 +10,28 @@ function SectionPresentation(props) {
       id="section-presentation"
       className="section section-presentation mb-3 "
     >
-      <div className="row g-0">
+      <div className="row align-items-center">
         <div className="col-md-4">
-          <img
-            className="img-fluid rounded-start w-50"
-            src={photo}
-            alt="My photo"
-          />
+          <img className="img-fluid rounded w-50" src={photo} alt="My photo" />
         </div>
-        <div className="col-md-8 text-end text-light">
-          <div className="card-body">
-            <p className="card-text">{description}</p>
-            <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+        <div className="col-md-8">
+          <div className="text-end">
+            <p>{description}</p>
+          </div>
+          <div className="row justify-content-around">
+            <a
+              href="/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-warning col-md-4"
+            >
               {t("Download my CV")}
             </a>
             <a
               href="https://www.linkedin.com/in/katarzyna-zurek-423b0664/"
               target="_blank"
               rel="noopener noreferrer"
+              className="col-md-4"
             >
               <img
                 src="/logos/linkedin.png"
