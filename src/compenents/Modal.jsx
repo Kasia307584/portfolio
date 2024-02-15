@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import projects from "../projects.json";
 import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 
 function ProjectModal(props) {
   const { t } = useTranslation(["translation", "projects"]);
@@ -27,22 +26,24 @@ function ProjectModal(props) {
         <p>{t(`${props.name}.challenges`, { ns: "projects" })}</p>
       </Modal.Body>
       <Modal.Footer>
-        <Button
+        <a
           href={project.github}
           target="_blank"
           type="button"
-          className="btn btn-secondary"
+          rel="noopener noreferrer"
+          className="btn btn-outline-warning"
         >
           <i className="bi bi-box-arrow-in-right"></i> GitHub link
-        </Button>
-        <Button
+        </a>
+        <a
           href={project.website}
           target="_blank"
           type="button"
-          className="btn btn-secondary"
+          rel="noopener noreferrer"
+          className="btn btn-outline-warning"
         >
           <i className="bi bi-box-arrow-in-right"></i> Website link
-        </Button>
+        </a>
       </Modal.Footer>
     </Modal>
   );

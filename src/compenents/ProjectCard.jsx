@@ -17,28 +17,28 @@ function ProjectCard({ name }) {
           className="card-img-top"
           alt="Project screenshot"
         />
-        <h1 className="card-title card-title__main text-bg-dark">
+        <h2 className="card-title card-title__main text-bg-dark lh-base">
           {project.title}
-        </h1>
+        </h2>
       </div>
-      <div className="card__details position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center bg-dark bg-opacity-75">
-        <h1 className="card-title">{project.title}</h1>
+      <div className="card__details position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center bg-dark ">
+        <h2 className="card-title">{project.title}</h2>
         <p className="card-text">
           {t(`${name}.description`, { ns: "projects" })}
         </p>
-        <div className="tags">
-          <ul>
-            {project.tags.map((tag, index) => (
-              <li key={index}>{tag}</li>
-            ))}
-          </ul>
-        </div>
+        <ul className="tags d-flex flex-wrap">
+          {project.tags.map((tag, index) => (
+            <li key={index} className="border rounded m-2">
+              {tag}
+            </li>
+          ))}
+        </ul>
         <button
           onClick={() => setModalShow(true)}
           type="button"
-          className="btn btn-secondary"
+          className="btn btn-warning"
         >
-          {t("More information")}
+          {t("More information")} <i className="bi bi-arrow-right"></i>
         </button>
         <ProjectModal
           show={modalShow}

@@ -4,11 +4,7 @@
 
   &:hover {
     .card__details {
-      opacity: 1;
-      // width: calc(100% - 14px);
-      // height: calc(100% - 14px);
-      // margin-left: 7px;
-      // margin-top: 7px;
+      opacity: 0.9;
     }
     .card-title__main {
       opacity: 0;
@@ -38,6 +34,14 @@
 
   &-body__project {
     padding: 7px;
+  }
+  .tags {
+    list-style-type: none;
+    padding: 0;
+
+    & > li {
+      padding: 3px;
+    }
   }
 }
 
