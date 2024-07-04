@@ -1,37 +1,37 @@
 {
   "Kasa": {
-    "description": "This is the description of the Kasa project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+    "description": "Apartment rental app",
+    "context": "This was my first React project. Data was given in the JSON format.",
+    "challenges": "The challenge of the project was to create a multipage React application with routing and use product IDs to display corresponding data based on the URL. Multiple pages and components that use props and React Hooks were created."
   },
-  "SportSee": {
-    "description": "This is the description of the SportSee project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+  "Sport See": {
+    "description": "Sport analytics dashboard",
+    "context": "The project involved creating a front-end and linking it to the provided back-end API in order to display data in charts.",
+    "challenges": "The two most important challenges in this project were creating a data service to ensure data quality and using an external library to create advanced graphics. I addressed the first challenge by keeping the data logic separate from the application logic. The data service handles all data requests from a single place in the code. For testing purposes, there is an easy switch to mocked data. The second challenge I adressed by using the Recharts library. To manage the styles of each chart, I employed module CSS, allowing for a separate CSS file for each component."
   },
-  "ArgentBank": {
-    "description": "This is the description of the ArgentBank project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+  "Argent Bank": {
+    "description": "Banking user authentication API",
+    "context": "The project involved creating a front-end and linking it to the provided back-end and database to enable user authentication and perform actions within the application.",
+    "challenges": "This project required authenticating the user to the application and then authorizing them to make changes to their profile. This was achieved through API calls using token-based authorization and the state management tool React-Redux (along with Redux Toolkit), enabling the use of user data throughout the application. I also had the opportunity to design an API for the future transactions component of the application. I used the Swagger methodology to accomplish this."
   },
-  "WealthHealth": {
+  "Wealth Health": {
     "description": "This is the description of the WealthHealth project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+    "context": "Tech dept reduction by changing the technology used: from jQuery to React.",
+    "challenges": "My main challenges were to choose and implement UI libraries (React Bootstrap, TanStack Table, W3.CSS), then run the application on a build version to conduct performance tests (Lighthouse). The second part of the project consisted on developying a reutilisable, custom React component as a separate project, running snapshot tests and deploying it through Rollup and publishing as an npm package including a necessary documentation, and then implementing the package into the original project."
   },
-  "LesPetitsPlats": {
-    "description": "This is the description of the LesPetitsPlats project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+  "Mon Vieux Grimoire": {
+    "description": "Back-end project for book collections and rating app",
+    "context": "The project involved creating a back-end and linking it to an existing front-end to develop a fully functional application. The application allows users to consult, create, delete, and rate books. An API specification document, written beforehand, served as the foundation for the API creation.",
+    "challenges": "My first back-end project required the use of various back-end technologies. The project was set up on Node.js using the Express framework. I utilized a cloud-hosted NoSQL database, MongoDB, connected to the application through Mongoose. CRUD operations from the front-end were implemented on the back-end using data models, middleware, controllers, and routes. Secure signup and login were ensured through encryption and token-based authentication."
   },
-  "FishEye": {
-    "description": "This is the description of the FishEye project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+  "Splitter": {
+    "description": "Tip calculator app",
+    "context": "This project is a solution to the challenge on Frontend Mentor. Those challenges help improve the coding skills by building realistic projects.",
+    "challenges": "The main challenge was to make all required calculations through JavaScript. The project also required some operations on HTML Form element, like displaying error messages when invalid input or toggling buttons of tip pourcentage."
   },
-  "GameOn": {
-    "description": "This is the description of the GameOn project",
-    "context": "In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to In this project I needed to ",
-    "challenges": "The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was The main challenge in this project was "
+  "Portfolio": {
+    "description": "My personal website",
+    "context": "After completing my official programming training, I decided to create this portfolio to showcase my most significant work and at the same time apply the knowledge I have acquired.",
+    "challenges": "The challenging aspect of this project, which distinguishes it from my other projects, is the fact that I was the one creating the entire concept of the page: deciding which functionalities to include, which technologies to use, and what the design of the page should be. Many decisions had to be made: Should each project description open as a new page/URL or is a simple modal window sufficient? What technology would be best to handle a multilingual page?"
   }
 }

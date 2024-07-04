@@ -1,74 +1,58 @@
 [
   {
     "id": "1",
-    "title": "Kasa",
-    "cover": "/kasa.png",
-    "description": "This is the description of the Kasa project, only in English for a moment",
-    "tags": ["HTML", "CSS", "REACT"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_11_25042023",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Wealth Health",
+    "cover": "/wealthhealth.png",
+    "tags": ["REACT", "REDUX", "TANSTACK", "BOOTSTRAP", "CSS"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_14_26102023",
+    "website": "https://wealth-health-hr-app.vercel.app/"
   },
   {
     "id": "2",
-    "title": "SportSee",
-    "cover": "/sportsee.png",
-    "description": "This is the description of the SportSee project",
-    "tags": ["HTML", "CSS", "REACT", "RECHARTS"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_12_22062023",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Argent Bank",
+    "cover": "/argentbank.png",
+    "tags": ["REACT", "REDUX", "REST API", "CSS"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_13_16082023",
+    "website": "https://argent-bank-snowy.vercel.app/"
   },
   {
     "id": "3",
-    "title": "ArgentBank",
-    "cover": "/argentbank.png",
-    "description": "This is the description of the ArgentBank project",
-    "tags": ["HTML", "CSS", "REACT", "API"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_13_16082023",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Sport See",
+    "cover": "/sportsee.png",
+    "tags": ["REACT", "RECHARTS", "API", "CSS"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_12_22062023",
+    "website": "https://sport-see-tawny.vercel.app/user/18"
   },
   {
     "id": "4",
-    "title": "WealthHealth",
-    "cover": "/wealthhealth.png",
-    "description": "This is the description of the WealthHealth project",
-    "tags": ["HTML", "CSS", "REACT", "BOOTSTRAP"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_14_26102023",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Kasa",
+    "cover": "/kasa.png",
+    "tags": ["REACT", "CSS"],
+    "github": "https://github.com/Kasia307584/KatarzynaZurek_11_25042023",
+    "website": "https://kasa-app-five.vercel.app/"
   },
   {
     "id": "5",
-    "title": "LesPetitsPlats",
-    "cover": "/lespetitsplats.png",
-    "description": "This is the description of the LesPetitsPlats project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_7_28112021",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Mon Vieux Grimoire",
+    "cover": "/monvieuxgrimoire.png",
+    "tags": ["NODE.JS", "EXPRESS", "MONGODB", "MONGOOSE", "REST API"],
+    "github": "https://github.com/Kasia307584/mon-vieux-grimoire-book-app--back-end",
+    "website": "https://book-frontend-sigma.vercel.app/"
   },
   {
     "id": "6",
-    "title": "FishEye",
-    "cover": "/fisheye.png",
-    "description": "This is the description of the FishEye project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_6_20092021",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "title": "Splitter",
+    "cover": "/splitter.png",
+    "tags": ["JAVASCRIPT", "CSS", "HTML"],
+    "github": "https://github.com/Kasia307584/challenge_Tip-Calculator-App",
+    "website": "https://kasia307584.github.io/challenge_Tip-Calculator-App/"
   },
   {
     "id": "7",
-    "title": "GameOn",
-    "cover": "/gameon.png",
-    "description": "This is the description of the GameOn project",
-    "tags": ["HTML", "CSS", "JAVASCRIPT"],
-    "github": "https://github.com/Kasia307584/KatarzynaZurek_4_02092021",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
-  },
-  {
-    "id": "8",
     "title": "Portfolio",
     "cover": "/portfolio.png",
-    "description": "This is the description of the Portfolio project",
-    "tags": ["HTML", "SASS", "BOOTSTRAP", "REACT"],
-    "github": "https://github.com/Kasia307584/Portfolio3",
-    "website": "https://kasia307584.github.io/KatarzynaZurek_11_25042023/"
+    "tags": ["REACT", "BOOTSTRAP", "SASS", "i18next"],
+    "github": "https://github.com/Kasia307584/Portfolio",
+    "website": "https://portfolio-teal-zeta-44.vercel.app/"
   }
 ]
