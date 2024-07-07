@@ -26,7 +26,7 @@
   },
   "Splitter": {
     "description": "Tip calculator app",
-    "context": "This project is a solution to the challenge on Frontend Mentor. Those challenges help improve the coding skills by building realistic projects.",
+    "context": "This project is a solution to the challenge on frontendmentor.io. Those challenges help improve the coding skills by building realistic projects.",
     "challenges": "The main challenge was to make all required calculations through JavaScript. The project also required some operations on HTML Form element, like displaying error messages when invalid input or toggling buttons of tip pourcentage."
   },
   "Portfolio": {

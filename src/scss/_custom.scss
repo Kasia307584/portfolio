@@ -64,9 +64,19 @@
 
 .section-header {
   padding-top: 120px;
+  padding-bottom: 20px;
+  border-bottom: 3px white solid;
 }
 
 .active {
   border-bottom: 1px solid aqua;
   transition: opacity 0.3s ease;
+}
+
+#navbarNavAltMarkup {
+  width: 45%;
+}
+
+.navbar-nav {
+  justify-content: space-around;
 }

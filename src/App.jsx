@@ -13,17 +13,17 @@ function App() {
 
   return (
     <Suspense fallback="loading">
-      <Menu />
-      <Header />
       <div className="text-bg-dark text-center">
+        <Menu />
+        <Header />
         <SectionPresentation
           photo="/photo_katarzyna.jpg"
           description={t("presentation.description")}
         />
         <SectionSkills title={t("technologies.title")} />
         <ProjectGallery title={t("projects.title")} />
+        <Footer />
       </div>
-      <Footer />
     </Suspense>
   );
 }

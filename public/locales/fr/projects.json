@@ -26,7 +26,7 @@
   },
   "Splitter": {
     "description": "Application de calcul de pourboire",
-    "context": "Ce projet est une solution au défi sur Frontend Mentor. Ces défis aident à améliorer les compétences en programmation en construisant des projets réalistes.",
+    "context": "Ce projet est une solution au défi sur frontendmentor.io. Ces défis aident à améliorer les compétences en programmation en construisant des projets réalistes.",
     "challenges": "Le principal défi était d'effectuer toutes les calculs nécessaires via JavaScript. Le projet nécessitait également des manipulations sur les éléments de formulaire HTML, comme l'affichage de messages d'erreur en cas de saisie invalide ou le basculement des boutons de pourcentage de pourboire."
   },
   "Portfolio": {
