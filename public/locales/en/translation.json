@@ -4,8 +4,9 @@
   "Tech & Tools": "Tech & Tools",
   "My projects": "My projects",
   "presentation": {
+    "article": "a ",
     "title": "React developer",
-    "description": "Welcome to my corner of the digital realm! I'm Katarzyna, a beginner React Developer with a unique journey that led me from the world of consulting to the exciting realm of web development. I love diving into crafting seamless user experiences within the dynamic React environment"
+    "description": "Welcome to my corner of the digital realm! I'm Katarzyna, a beginner React Developer with a unique journey that led me from the world of consulting to the exciting realm of web development. I love diving into crafting seamless user experiences within the dynamic React environment."
   },
   "technologies": {
     "title": "Tech & tools",
@@ -16,9 +17,11 @@
     "description": "The best of what I could build"
   },
   "More information": "More information",
-  "Download my CV": "Download my CV",
+  "My CV": "My CV",
   "Welcome, I'm Katarzyna": "Welcome, I'm Katarzyna",
-  "context": "context",
-  "challenges": "challenges",
-  "Katarzyna Zurek. All rights reserved.": "Katarzyna Zurek. All rights reserved."
+  "Context": "Context",
+  "Challenges": "Challenges",
+  "Katarzyna Zurek. All rights reserved.": "Katarzyna Zurek. All rights reserved.",
+  "GitHub link": "GitHub link",
+  "Website link": "Website link"
 }

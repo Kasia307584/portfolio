@@ -20,9 +20,9 @@ function ProjectModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h2>{t("context")}</h2>
+        <h5>{t("Context")}</h5>
         <p>{t(`${props.name}.context`, { ns: "projects" })}</p>
-        <h2>{t("challenges")}</h2>
+        <h5>{t("Challenges")}</h5>
         <p>{t(`${props.name}.challenges`, { ns: "projects" })}</p>
       </Modal.Body>
       <Modal.Footer>
@@ -31,18 +31,18 @@ function ProjectModal(props) {
           target="_blank"
           type="button"
           rel="noopener noreferrer"
-          className="btn btn-outline-warning"
+          className="btn btn-warning"
         >
-          <i className="bi bi-box-arrow-in-right"></i> GitHub link
+          <i className="bi bi-box-arrow-in-right"></i> {t("GitHub link")}
         </a>
         <a
           href={project.website}
           target="_blank"
           type="button"
           rel="noopener noreferrer"
-          className="btn btn-outline-warning"
+          className="btn btn-warning"
         >
-          <i className="bi bi-box-arrow-in-right"></i> Website link
+          <i className="bi bi-box-arrow-in-right"></i> {t("Website link")}
         </a>
       </Modal.Footer>
     </Modal>

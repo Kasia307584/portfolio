@@ -11,7 +11,7 @@ function ProjectCard({ name }) {
 
   return (
     <div className="card text-bg-dark">
-      <div className="card-body card-body__project text-bg-warning">
+      <div className="card-body card-body__project bg-light">
         <img
           src={project.cover}
           className="card-img-top"

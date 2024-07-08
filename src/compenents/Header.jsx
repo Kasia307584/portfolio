@@ -13,7 +13,10 @@ function Header() {
         <div className="col-md-8">
           <div>
             <h2>{t("Welcome, I'm Katarzyna")}</h2>
-            <h1 className="text-uppercase"> {t("presentation.title")}</h1>
+            <h1>
+              {t("presentation.article")}
+              <span className="text-uppercase">{t("presentation.title")}</span>
+            </h1>
             <HashLink
               to="#section-projects"
               className="btn btn-outline-warning"
