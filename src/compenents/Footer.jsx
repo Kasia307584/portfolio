@@ -15,7 +15,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-github"></i>
+                  <i className="bi bi-github text-warning"></i>
                 </a>
               </li>
               <li className="list-inline-item">
@@ -24,7 +24,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="bi bi-linkedin"></i>
+                  <i className="bi bi-linkedin text-warning"></i>
                 </a>
               </li>
             </ul>

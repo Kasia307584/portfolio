@@ -64,8 +64,6 @@ function Menu() {
     >
       <div className="container-fluid">
         <HashLink to="#" id="menu" className="nav-link">
-          {/* Brand icon */}
-          {/* <i className="bi bi-brightness-high btn btn-outline-info"></i> */}
           <div>
             <img
               src="./logos/reactjs.svg"
@@ -79,9 +77,7 @@ function Menu() {
           </div>
         </HashLink>
         <div id="navbarNavAltMarkup">
-          {/* <ul className="navbar-nav"> */}
           <div className="navbar-nav">
-            {/* <li className="nav-item"> */}
             <HashLink
               to="#"
               className={`nav-link ${
@@ -92,8 +88,6 @@ function Menu() {
             >
               {t("Home")}
             </HashLink>
-            {/* </li> */}
-            {/* <li className="nav-item"> */}
             <HashLink
               to="#section-presentation"
               className={`nav-link ${
@@ -102,8 +96,6 @@ function Menu() {
             >
               {t("Presentation")}
             </HashLink>
-            {/* </li> */}
-            {/* <li className="nav-item"> */}
             <HashLink
               to="#section-skills"
               className={`nav-link ${
@@ -112,8 +104,6 @@ function Menu() {
             >
               {t("Tech & Tools")}
             </HashLink>
-            {/* </li> */}
-            {/* <li className="nav-item"> */}
             <HashLink
               to="#section-projects"
               className={`nav-link ${
@@ -122,9 +112,7 @@ function Menu() {
             >
               {t("Projects")}
             </HashLink>
-            {/* </li> */}
           </div>
-          {/* </ul> */}
         </div>
         <div className="btn-group" role="group" aria-label="Language buttons">
           {Object.keys(lngs).map((lng) => (
