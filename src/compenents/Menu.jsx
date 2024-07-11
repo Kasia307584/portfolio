@@ -17,6 +17,7 @@ function Menu() {
 
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+  const [navHidden, setNavHidden] = useState(false);
 
   const handleScroll = () => {
     const sections = [
@@ -39,12 +40,18 @@ function Menu() {
     });
     setActiveSection(currentSection || "");
 
-    // Change navbar color on scroll
+    // Change navbar color and hide navbar-nav on scroll
     if (window.scrollY > 30) {
       setScrolled(true);
+      setNavHidden(true);
     } else {
       setScrolled(false);
+      setNavHidden(false);
     }
+  };
+
+  const handleNavHidden = () => {
+    setNavHidden((prevNavHidden) => !prevNavHidden);
   };
 
   // Add event listener to handle scroll
@@ -58,26 +65,46 @@ function Menu() {
   return (
     <nav
       id="navbar"
-      className={`navbar navbar-dark navbar-expand-lg sticky-top bg-dark ${
+      className={`navbar navbar-dark navbar-expand-sm sticky-top bg-dark ${
         scrolled ? "scrolled" : ""
       }`}
     >
-      <div className="container-fluid">
-        <HashLink to="#" id="menu" className="nav-link">
-          <div>
-            <img
-              src="./logos/reactjs.svg"
-              x="0"
-              y="100"
-              width="30"
-              height="30"
-              alt="React logo"
-              title="React"
-            />
-          </div>
-        </HashLink>
-        <div id="navbarNavAltMarkup">
-          <div className="navbar-nav">
+      <div className="container-fluid d-flex flex-nowrap align-items-start">
+        <div>
+          <HashLink to="#" id="menu" className="nav-link d-none d-sm-block">
+            <div>
+              <img
+                src="./logos/reactjs.svg"
+                x="0"
+                y="100"
+                width="30"
+                height="30"
+                alt="React logo"
+                title="React"
+              />
+            </div>
+          </HashLink>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        {/* <div id="navbarNavAltMarkup">
+          <div className="navbar-nav d-none d-md-flex flex-row"> */}
+        <div
+          className={`collapse navbar-collapse justify-content-center ${
+            navHidden ? "hidden" : ""
+          }`}
+          id="navbarNavAltMarkup"
+        >
+          <div id="navbar-nav" className="navbar-nav text-start ps-3">
             <HashLink
               to="#"
               className={`nav-link ${
@@ -85,6 +112,7 @@ function Menu() {
                   ? "active"
                   : ""
               }`}
+              onClick={handleNavHidden}
             >
               {t("Home")}
             </HashLink>
@@ -93,6 +121,7 @@ function Menu() {
               className={`nav-link ${
                 activeSection === "section-presentation" ? "active" : ""
               }`}
+              onClick={handleNavHidden}
             >
               {t("Presentation")}
             </HashLink>
@@ -101,6 +130,7 @@ function Menu() {
               className={`nav-link ${
                 activeSection === "section-skills" ? "active" : ""
               }`}
+              onClick={handleNavHidden}
             >
               {t("Tech & Tools")}
             </HashLink>
@@ -109,6 +139,7 @@ function Menu() {
               className={`nav-link ${
                 activeSection === "section-projects" ? "active" : ""
               }`}
+              onClick={handleNavHidden}
             >
               {t("Projects")}
             </HashLink>

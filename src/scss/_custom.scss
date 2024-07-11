@@ -48,7 +48,6 @@
 
 .section,
 .navbar > div {
-  width: 90%;
   max-width: 1250px;
   margin: auto;
 }
@@ -77,6 +76,6 @@
   width: 45%;
 }
 
-.navbar-nav {
-  justify-content: space-around;
-}
+// .navbar-nav.hidden {
+//   display: none !important;
+// }
