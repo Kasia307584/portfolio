@@ -8,7 +8,7 @@ function SectionPresentation(props) {
   return (
     <section
       id="section-presentation"
-      className="section section-presentation mb-3"
+      className="section section-presentation mb-sm-3"
     >
       <div className="row align-items-center">
         <div className="col-md-4">

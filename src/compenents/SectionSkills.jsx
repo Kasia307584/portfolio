@@ -1,7 +1,7 @@
 function SectionSkills(props) {
   const { title } = props;
   return (
-    <section id="section-skills" className="section section-skills  mb-3 ">
+    <section id="section-skills" className="section section-skills  mb-sm-3 ">
       <h1 className="pb-3">{title}</h1>
       <div>
         <img

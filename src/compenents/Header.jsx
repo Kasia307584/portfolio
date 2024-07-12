@@ -7,7 +7,7 @@ function Header() {
   return (
     <section
       id="section-header"
-      className="section section-header mb-3 text-center pb-4"
+      className="section section-header mb-sm-3 text-center pb-4"
     >
       <div className="row align-items-center justify-content-around">
         <div className="col-md-8">

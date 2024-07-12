@@ -26,7 +26,7 @@ function ProjectCard({ name }) {
         <p className="card-text">
           {t(`${name}.description`, { ns: "projects" })}
         </p>
-        <ul className="tags d-flex flex-wrap">
+        <ul className="tags d-flex flex-wrap justify-content-center">
           {project.tags.map((tag, index) => (
             <li key={index} className="border rounded m-2">
               {tag}
