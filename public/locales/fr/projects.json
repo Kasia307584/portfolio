@@ -15,7 +15,7 @@
     "challenges": "Ce projet nécessitait d'authentifier l'utilisateur à l'application, puis de l'autoriser à effectuer des modifications sur son profil. Cela a été réalisé grâce à des appels API utilisant une autorisation basée sur un token et l'outil de gestion d'état React-Redux (avec Redux Toolkit), permettant l'utilisation des données utilisateur dans toute l'application. J'ai également eu l'occasion de concevoir une API pour la partie transactions futures de l'application. J'ai utilisé la méthodologie Swagger pour y parvenir."
   },
   "Wealth Health": {
-    "description": "C'est la description du projet WealthHealth",
+    "description": "Passage d'une librairie jQuery vers React",
     "context": "Réduction de la dette technique en changeant la technologie utilisée : de jQuery à React.",
     "challenges": "Mes principaux défis étaient de choisir et de mettre en œuvre des bibliothèques UI (React Bootstrap, TanStack Table, W3.CSS), puis d'exécuter l'application sur une version de build pour effectuer des tests de performance (Lighthouse). La deuxième partie du projet consistait à développer un composant React personnalisé et réutilisable en tant que projet distinct, à effectuer des tests de snapshot, à le déployer via Rollup, à le publier en tant que package npm avec la documentation nécessaire, puis à intégrer le package dans le projet d'origine."
   },
