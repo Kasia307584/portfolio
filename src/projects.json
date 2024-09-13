@@ -37,7 +37,7 @@
     "cover": "/monvieuxgrimoire.png",
     "tags": ["NODE.JS", "EXPRESS", "MONGODB", "MONGOOSE", "REST API"],
     "github": "https://github.com/Kasia307584/mon-vieux-grimoire-book-app--back-end",
-    "website": "https://book-frontend-sigma.vercel.app/"
+    "website": "https://book-app-frontend-three.vercel.app/"
   },
   {
     "id": "6",
