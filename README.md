@@ -29,6 +29,7 @@ Users should be able to:
 - **React.js** for building the user interface
 - **Bootstrap**, **React Bootstrap** and **Sass** for consistent and responsive UI styling
 - **i18next** for internationalization, enabling multilingual support
+- **Vite** for fast development and optimized builds
 - **Vercel** for easy deployment and hosting of the live application
 
 ### What I learned
@@ -39,6 +40,6 @@ Users should be able to:
 
 ### Continued development
 
-- Refactor the code to store all links in a “constants” file for better code organization and easier maintenance
+- Refactor the code to store all links in a `constants` file for better code organization and easier maintenance
 - Improve the use of the `useTranslation` hook by handling translations only at the App component level and passing the necessary props to child components
 - Replace React-Bootstrap modal logic with custom React component (using `useState`, `useEffect`) combined with JavaScript and rely on Bootstrap only for styling
